@@ -1,0 +1,17 @@
+.header {
+    max-width: 479px;
+    width: 90%;
+    margin: 20px auto;
+    background-color: #03e3fc;
+    color: #fff;
+}
+.link {
+    text-decoration: none;
+    color: #fff;
+    margin: 25px;
+    text-transform: uppercase;
+}
+
+.header__title {
+    margin-bottom: 10px;
+}

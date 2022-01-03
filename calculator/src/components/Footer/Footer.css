@@ -1,0 +1,11 @@
+h4 {
+    color: #808080;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e6e6e6;
+    padding: 30px;
+}
