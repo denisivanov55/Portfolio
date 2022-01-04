@@ -8,4 +8,29 @@ h4 {
     align-items: center;
     background-color: #e6e6e6;
     padding: 30px;
+    margin-top: 15px;
+}
+
+.myButton {
+    width: 141px;
+    height: 48px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #008000FF;
+    background: transparent;
+    border: none;
+    transition: .2s opacity;
+    cursor: pointer;
+}
+
+.myButton:hover {
+    transform: scale(1.2, 1.2);
+    background-color: #cccccc;
+}
+
+.myButton:focus {
+    outline: none;
 }

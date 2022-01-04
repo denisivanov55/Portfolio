@@ -11,23 +11,22 @@ import {createContext, useState} from "react";
 export const AppContext = createContext(null);
 
 function App() {
-    const [age, setAge] = useState('');
-    const [height, setHeight] = useState(null);
+
+
 
   return (
-      <AppContext.Provider value={{
-          age,
-          setAge,
-          height,
-          setHeight
-      }}>
-          <Routes>
-              <Route path={'/'} element={<Layout/>}>
-              <Route index element={<Form/>}/>
-              <Route path={'about'} element={<AboutPage/>}/>
-              </Route>
-          </Routes>
-      </AppContext.Provider>
+    <AppContext.Provider value={{
+
+}}>
+        <Routes>
+            <Route path={'/'} element={<Layout/>}>
+                <Route index element={<Form/>}/>
+                <Route path={'about'} element={<AboutPage/>}/>
+            </Route>
+        </Routes>
+    </AppContext.Provider>
+
+
 
   );
 }
